@@ -1,0 +1,45 @@
+.banner { padding: 60px 0; }
+
+.bannerInner {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.bannerText { flex: 1; }
+
+.bannerText h1 {
+  font-family: 'Bebas', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.bannerText h1 span { color: #ff3d6e; }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 32px;
+  background: #ff3d6e;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  font-family: 'MontSM', Arial, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover { background: #e62f5d; }
+
+.bannerImage img {
+  width: 518px;
+  height: 522px;
+  object-fit: cover;
+  display: block;
+}
