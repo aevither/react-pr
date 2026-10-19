@@ -11,7 +11,7 @@ export function Banner() {
               Энергия инноваций — <br />
               <span>у вас в руках!</span>
             </h1>
-            <a href="/catalog" className={s.btn}>Каталог</a>
+            <a href="#catalog" className={s.btn}>Каталог</a>
           </div>
           <div className={s.bannerImage}>
             <img src={bannerImg} alt="Техника" />
